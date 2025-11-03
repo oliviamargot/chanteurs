@@ -22,4 +22,4 @@ Cette prosopographie vise à analyser la population des chanteurs à l'échelle 
 * Nombre d'albums sortis
 * Prix gagnés
 * Appartenance à un groupe musical
-* Style musical   %
+* Style musical
