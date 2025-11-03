@@ -4,17 +4,35 @@
 
 ### Personne
 - nom
+- genre
 - date de naissance
 - lieu de naissance
 - origine
-- style musical
+- formation
 
-### Oeuvre
+### Chanson
 - Titre
 - Année de sortie
-- nombre d'écoutes sur Spotify
-- nombre d'écoutes sur Apple Music
+- nombre d'écoutes
+- nombre de ventes
+- style
 
+### Album
+- titre
+- année de sortie
+- nombre de ventes
+- nombre d'écoutes
+- prix gagnés
+- style
+
+### Organisation
+- type
+- nom
+- année de création
+
+### Style musical
+- nom
+- année d'émergence
 
 <br/>
 
