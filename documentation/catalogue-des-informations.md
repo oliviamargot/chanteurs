@@ -10,6 +10,10 @@
 - origine
 - formation
 
+### Appelation
+- nom de naissance
+- nom de scène
+
 ### Chanson
 - Titre
 - Année de sortie
@@ -32,11 +36,19 @@
 
 ### Style musical
 - nom
-- année d'émergence
+- définition
 
 <br/>
 
 ## Relations entre objets
 
 - personne est née dans lieu
-- oeuvre a pour auteur personne
+- personne est née à date
+- personne a formation
+- personne est appelée par nom
+- chanson a pour auteur personne
+- chanson fait partie de album
+- personne fait partie de organisation
+- personne s'inscrit dans style musical
+- chanson s'inscrit dans style musical
+
