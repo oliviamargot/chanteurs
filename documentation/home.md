@@ -3,7 +3,7 @@
 
 Ce projet a pour but d'étudier l'influence des chateurs sur la culture au cours du 21ème sicèle selon certains facteurs sociaux comme leur pays d'origine, leur ethnie, leur âge, leur style musical ou encore leur genre.
 
-[Back to the repository README](README.md)
+[Back to the repository README](documentation/Home.md)
 
 
 ###  Phase exploratoire
