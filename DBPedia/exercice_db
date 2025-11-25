@@ -1,0 +1,91 @@
+population de chanteurs : https://fr.wikipedia.org/wiki/Olivia_Dean#Liens_externes URL
+
+essai avec chanteurs anglais : https://en.wikipedia.org/wiki/Category:21st-century_English_singers
+
+
+Olivia Dean : http://dbpedia.org/resource/Olivia_Dean URI
+
+SELECT *
+WHERE {
+  <http://dbpedia.org/resource/Olivia_Dean> ?p ?o
+}
+
+on peut reécrire de manière plus compacte la requête en utilisant des 
+préfixes permettant de ne pas répéter les espaces de noms:
+PREFIX dbr: <http://dbpedia.org/resource/>
+SELECT *
+WHERE 
+{
+  dbr:Olivia_Dean ?p ?o
+}
+
+
+
+### Regrouper et compter les propriétés disponibles
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+SELECT ?p (COUNT(*) as ?number)
+WHERE 
+{
+  dbr:Olivia_Dean ?p ?o
+}
+GROUP BY ?p
+ORDER BY DESC(?number)
+
+
+### Trouver des chanteurs et leur date de naissance
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?s1 ?birthDate
+WHERE { ?s1 dbo:occupation dbr:Singer .
+    OPTIONAL { 
+               ?s1 dbo:birthYear ?birthDate .
+               }
+      }
+LIMIT 100
+
+
+### Compter les chanteurs
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+SELECT (COUNT(*) as ?effectif)
+WHERE { ?s1 dbo:occupation dbr:Singer .
+}
+
+résultat : 823
+
+### compter en tant que personne
+  PREFIX dbr: <http://dbpedia.org/resource/>
+  PREFIX dbo: <http://dbpedia.org/ontology/>
+  PREFIX dbp: <http://dbpedia.org/property/>
+  SELECT (COUNT(*) as ?effectif)
+  WHERE { ?s1 dbo:occupation dbr:Singer ;
+              a dbo:Person.
+  }
+
+  résultat : 822
+
+  ### Quel chanteur n'est pas une personne ?
+  PREFIX dbr: <http://dbpedia.org/resource/>
+  PREFIX dbo: <http://dbpedia.org/ontology/>
+  PREFIX dbp: <http://dbpedia.org/property/>
+  SELECT ?s1
+  WHERE { ?s1 dbo:occupation dbr:Astronomer.
+              MINUS { ?s1 a dbo:Person.}
+  }
+
+  réponse : Rock Steady Crew, c'est un groupe
+
+###problème :
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p ?o1 
+WHERE { 
+  dbr:List_of_singers ?p ?o1.
+  ?o1 a dbo:Person.
+  }
+LIMIT 10
