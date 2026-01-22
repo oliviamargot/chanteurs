@@ -19,7 +19,8 @@
 - Année de sortie
 - nombre d'écoutes
 - nombre de ventes
-- style
+- style musical
+- prix gagnés
 
 ### Album
 - titre
@@ -38,6 +39,20 @@
 - nom
 - définition
 
+### Prix
+- nom du prix
+- année
+- lauréat
+- album ou morceau récompensé
+
+### Nomination
+- nom de la nomination
+- année
+- personne nominée
+- album ou morceau nominé
+
+
+
 <br/>
 
 ## Relations entre objets
@@ -46,9 +61,10 @@
 - personne est née à date
 - personne a formation
 - personne est appelée par nom
-- chanson a pour auteur personne
+- personne a chanté chanson
 - chanson fait partie de album
 - personne fait partie de organisation
 - personne s'inscrit dans style musical
 - chanson s'inscrit dans style musical
-
+- personne a gagné prix
+- organisation donne prix
