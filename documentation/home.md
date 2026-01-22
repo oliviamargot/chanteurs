@@ -6,14 +6,14 @@ Ce projet a pour but d'étudier l'influence des chateurs sur la culture au cours
 [Back to the repository README](../README.md)
 
 ###  Phase exploratoire
-* [Problématique et questionnement](Problématique-questionnement.md)
+* [Problématique et questionnement](problematique-questionnement.md)
 * [Liste de chanteurs](liste-de-chanteurs.md)
 * [Catalogue des informations](catalogue-des-informations.md)
 
 
 ### Création de la base de données
 
-*  [Commentaire du modèle conceptuel](Modèle-conceptuel-(MCD):-commentaire.md)
+*  [Commentaire du modèle conceptuel](commentaire_modeleconceptuel.md)
 *  [Modèle logique ou relationnel](Modèle-logique-ou-relationnel.md)
 
 ### Récupération et analyse de données existantes
