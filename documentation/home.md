@@ -7,7 +7,7 @@ Ce projet a pour but d'étudier l'influence des chateurs sur la culture au cours
 
 ###  Phase exploratoire
 * [Problématique et questionnement](problematique-questionnement.md)
-* [Liste des lauréats et nominés aux Grammy Awards](liste-de-chanteurs.md)
+* [Liste des lauréats et nominés aux Grammy Awards](liste-chanteurs.md)
 * [Catalogue des informations](catalogue-des-informations.md)
 
 
