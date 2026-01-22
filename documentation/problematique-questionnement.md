@@ -1,7 +1,6 @@
 ## Problématique
 
-Cette prosopographie vise à analyser la population des chanteurs à l'échelle mondiale afin de dégager des tendances socioculturelles et géographiques dans l'industrie musicale. L'étude vise à comprendre comment des éléments tels que la nationalité, le genre ou le contexte culturel des artistes influencent leur popularité. La popularité se mesurera par rapport aux charts, aux nombres de ventes et d'écoutes ainsi qu'aux prix décernés aux artistes, bien que ceux-ci ne soient pas forcément représentatifs de la qualité des morceaux, et que certains facteurs politiques entrent en jeu dans la remise de prix. Cette analyse se restreindra aux artistes musicaux ayant pratiqué entre 1960 et le présent.        
-
+Cette prosopographie vise à analyser la population des chanteurs à l'échelle mondiale afin de dégager des tendances socioculturelles et géographiques dans l'industrie musicale. L'étude vise à comprendre comment des éléments tels que la nationalité, le genre ou le contexte culturel des artistes influencent leur popularité. La popularité se mesurera par rapport aux charts, aux nombres de ventes et d'écoutes ainsi qu'aux prix décernés aux artistes, bien que ceux-ci ne soient pas forcément représentatifs de la qualité des morceaux, et que certains facteurs politiques entrent en jeu dans la remise de prix. Cette analyse se restreindra aux artistes musicaux du 21ème siècle.
 ## Questions de recherche
 
 * Quels pays produisent le plus de chanteurs reconnus internationalement ?
