@@ -1,4 +1,4 @@
-# Les chanteurs des 20eme et 21eme siecles
+# Les nominés et lauréats américains des Grammy Awards
 
 
 Ce projet a pour but d'étudier l'influence des chateurs sur la culture au cours du 21ème sicèle selon certains facteurs sociaux comme leur pays d'origine, leur ethnie, leur âge, leur style musical ou encore leur genre.
@@ -7,7 +7,7 @@ Ce projet a pour but d'étudier l'influence des chateurs sur la culture au cours
 
 ###  Phase exploratoire
 * [Problématique et questionnement](problematique-questionnement.md)
-* [Liste de chanteurs](liste-de-chanteurs.md)
+* [Liste des lauréats et nominés aux Grammy Awards](liste-de-chanteurs.md)
 * [Catalogue des informations](catalogue-des-informations.md)
 
 
