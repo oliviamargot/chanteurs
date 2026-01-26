@@ -20,7 +20,6 @@ Nom standard, notice
 
 ### Relations
 Une relation réfléxive de spécialisation, termes plus génériques associés à des termes plus précis.
-Par exemple 'épicier' spécialise le terme de 'négociant'.
 
 
 ## Pursuit
@@ -28,7 +27,6 @@ Par exemple 'épicier' spécialise le terme de 'négociant'.
 Le fait d'avoir telle occupation ou activité durant telle période 
 Il s'agit d'une classe temporalité (temporal entity)
 
-Exemple: "Kepler was a mathematics teacher at a seminary school in Graz" (Wikipedia)
 
 ### Relations
 
@@ -42,6 +40,12 @@ Si plusieurs organisation sont concernées par une activité, plusieurs individu
 
 Un mot clé qui introduit un classement de recherche, généralement lié au questionnement.
 
-### Relations
 
-Relation reflexive (d'un classe vers elle même) qui créer une taxonomie (i.e. une hiérarchie) de mots clés, les plus généraux étant les parents ou ancêtres des plus spécifiques.
+## Song
+Un track appartenant à un album et chanté par un artiste.
+
+## Album
+Un album comporte plusieurs chansons.
+
+## Prize
+Un artiste gagne un prix pour une chanson ou un album spécifique.
