@@ -1,7 +1,7 @@
 # Les nominés et lauréats américains des Grammy Awards
 
 
-Ce projet a pour but d'étudier l'influence des chateurs sur la culture au cours du 21ème sicèle selon certains facteurs sociaux comme leur pays d'origine, leur ethnie, leur âge, leur style musical ou encore leur genre.
+Ce projet a pour but de faire une analyse prosopographique des artistes musicaux ayant remporté un Grammy Awards. 
 
 [Back to the repository README](../README.md)
 
