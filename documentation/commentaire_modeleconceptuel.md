@@ -10,11 +10,6 @@ Nom standard, notice, le genre, éventuellement la date de mort.
 Il s'agit d'une classe objet (persistent item)
 
 
-## Occupation
-
-Un métier ou tout autre type d'occupation
-Il s'agit d'une classe objet (persistent item)
-
 ### Propriétés
 Nom standard, notice
 
@@ -22,30 +17,19 @@ Nom standard, notice
 Une relation réfléxive de spécialisation, termes plus génériques associés à des termes plus précis.
 
 
-## Pursuit
-
-Le fait d'avoir telle occupation ou activité durant telle période 
-Il s'agit d'une classe temporalité (temporal entity)
-
-
-### Relations
-
-Une _Pursuit_ peut comprend une et une seule personne, une et une seule occupation (ces deux relations sont nécessaires) et éventuellement on peut associer une (et une seule) organisation auprès de laquelle l'activité est exercée.
-
-Si plusieurs organisation sont concernées par une activité, plusieurs individus de la classe _Pursuit_ seront créées.
-
-
-
-## Tag
-
-Un mot clé qui introduit un classement de recherche, généralement lié au questionnement.
-
 
 ## Song
-Un track appartenant à un album et chanté par un artiste.
+Un track appartenant à un album et chanté par un artiste. Chaque chanson appartient à un genre musical.
 
 ## Album
 Un album comporte plusieurs chansons.
 
-## Prize
-Un artiste gagne un prix pour une chanson ou un album spécifique.
+## Nomination
+Un artiste est nominé pour une chanson ou un album lors d'une cérémonie de remise de prix. L'artiste peut être lauréat ou nominé sans gagner.
+
+## Nationalité
+Une personne peut avoir plusieurs nationalités. La nationalité est reliée à un lieu géographique.
+
+## Organisation
+Une entité dont l'artiste fait partie. P.ex. une école, un label.
+Les nominants comme les Grammy Awards sont aussi une organisation.
